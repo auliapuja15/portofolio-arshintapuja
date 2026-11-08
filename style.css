@@ -76,3 +76,12 @@ footer{padding:36px 0 50px;text-align:center;color:var(--muted);font-weight:700}
 .page h2{font-size:1.7rem}
 
 .btn.mini{font-size:.9rem;padding:3px 18px;margin-top:10px;box-shadow:3px 3px 0 var(--ink)}
+
+.vid iframe{display:block;width:100%;aspect-ratio:16/9;border:0}
+.feat{display:grid;gap:16px;margin-bottom:22px}
+@media(min-width:700px){.feat{grid-template-columns:1fr 1fr}}
+.feat .box{padding:16px 18px;box-shadow:4px 4px 0 var(--ink)}
+.feat h3{font-size:1.15rem;margin-bottom:6px}
+.feat p{margin:0;color:var(--muted)}
+.logo-box{display:flex;justify-content:center;margin-bottom:22px}
+.logo-box img{max-width:220px;width:60%;height:auto}
